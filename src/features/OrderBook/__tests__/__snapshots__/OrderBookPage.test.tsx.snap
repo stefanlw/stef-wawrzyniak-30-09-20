@@ -1,0 +1,1462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderBookPage should render correctly 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#10141e",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginBottom": 8,
+          "marginHorizontal": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontSize": 26,
+            },
+          ]
+        }
+      >
+        Order Book
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            Object {
+              "borderBottomColor": "#404854",
+              "borderBottomWidth": 0.5,
+              "borderTopColor": "#404854",
+              "borderTopWidth": 0.5,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#404854",
+                },
+              ]
+            }
+          >
+            PRICE
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#404854",
+                },
+              ]
+            }
+          >
+            SIZE
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#404854",
+                },
+              ]
+            }
+          >
+            TOTAL
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#351a23",
+                "width": 399.6150907915614,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#b13135",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,974.50
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            7.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            9,067.00
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#351a23",
+                "width": 399.306575777164,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#b13135",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,972.50
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            2,500.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            9,060.00
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#351a23",
+                "width": 289.12264206381855,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#b13135",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,970.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            112.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            6,560.00
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#351a23",
+                "width": 284.18640183346065,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#b13135",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,969.50
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            6,338.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            6,448.00
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#351a23",
+                "width": 4.848093083387201,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#b13135",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,969.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            110.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            110.00
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              Object {
+                "alignItems": "center",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#404854",
+                },
+              ]
+            }
+          >
+            Spread: 
+            6
+             (
+            0.00
+            %)
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#102e2d",
+                "width": 4.848093083387201,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#12c48c",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,963.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            110.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            110.00
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#102e2d",
+                "width": 48.92166656872539,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#12c48c",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,962.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            1,000.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            1,110.00
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#102e2d",
+                "width": 342.9364752894165,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#12c48c",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,961.50
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            6,671.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            7,781.00
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#102e2d",
+                "width": 667.2298289945348,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#12c48c",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,960.50
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            7,358.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            15,139.00
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 25,
+              "paddingHorizontal": 40,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "height": 25,
+                "position": "absolute",
+              },
+              Object {
+                "backgroundColor": "#102e2d",
+                "width": 750,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#12c48c",
+                },
+                undefined,
+              ]
+            }
+          >
+            47,956.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            1,878.00
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-end",
+                "flex": 3,
+              },
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontVariant": Array [
+                    "tabular-nums",
+                  ],
+                },
+                Object {
+                  "color": "#ffffff",
+                },
+                undefined,
+              ]
+            }
+          >
+            17,017.00
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 6,
+              "justifyContent": "center",
+              "padding": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "backgroundColor": "#4b3cbb",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Toggle Feed
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "bottom": 50,
+          "height": 50,
+          "paddingHorizontal": 16,
+          "position": "absolute",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderRadius": 6,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "padding": 8,
+          },
+          Object {
+            "width": 718,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 3,
+          }
+        }
+      >
+        <Text
+          style={Object {}}
+        >
+          Feed disconnected, please press reconnect when ready
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={Object {}}
+        >
+          Reconnect
+        </Text>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

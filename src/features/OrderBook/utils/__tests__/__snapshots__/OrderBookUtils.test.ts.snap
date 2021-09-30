@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`buildOrderBookLevels should return array of Levels type with totals calculated 1`] = `
+Array [
+  Object {
+    "price": "48384",
+    "size": 1,
+    "total": 1,
+  },
+  Object {
+    "price": "48388",
+    "size": 4725,
+    "total": 4726,
+  },
+  Object {
+    "price": "48390",
+    "size": 1235,
+    "total": 5961,
+  },
+  Object {
+    "price": "48391",
+    "size": 15000,
+    "total": 20961,
+  },
+  Object {
+    "price": "48392",
+    "size": 57158,
+    "total": 78119,
+  },
+  Object {
+    "price": "48398",
+    "size": 450,
+    "total": 78569,
+  },
+  Object {
+    "price": "48401",
+    "size": 2607,
+    "total": 81176,
+  },
+  Object {
+    "price": "48407",
+    "size": 9681,
+    "total": 90857,
+  },
+  Object {
+    "price": "48412",
+    "size": 2092,
+    "total": 92949,
+  },
+  Object {
+    "price": "48414",
+    "size": 25000,
+    "total": 117949,
+  },
+  Object {
+    "price": "48416",
+    "size": 53820,
+    "total": 171769,
+  },
+  Object {
+    "price": "48419",
+    "size": 7500,
+    "total": 179269,
+  },
+  Object {
+    "price": "48376.5",
+    "size": 20000,
+    "total": 199269,
+  },
+  Object {
+    "price": "48381.5",
+    "size": 24072,
+    "total": 223341,
+  },
+  Object {
+    "price": "48388.5",
+    "size": 1,
+    "total": 223342,
+  },
+  Object {
+    "price": "48391.5",
+    "size": 6922,
+    "total": 230264,
+  },
+  Object {
+    "price": "48392.5",
+    "size": 86628,
+    "total": 316892,
+  },
+  Object {
+    "price": "48395.5",
+    "size": 1000,
+    "total": 317892,
+  },
+  Object {
+    "price": "48397.5",
+    "size": 4479,
+    "total": 322371,
+  },
+  Object {
+    "price": "48398.5",
+    "size": 8338,
+    "total": 330709,
+  },
+  Object {
+    "price": "48400.5",
+    "size": 5000,
+    "total": 335709,
+  },
+  Object {
+    "price": "48408.5",
+    "size": 2500,
+    "total": 338209,
+  },
+  Object {
+    "price": "48418.5",
+    "size": 4578,
+    "total": 342787,
+  },
+  Object {
+    "price": "48421.5",
+    "size": 12222,
+    "total": 355009,
+  },
+  Object {
+    "price": "48423.5",
+    "size": 7522,
+    "total": 362531,
+  },
+]
+`;
+
+exports[`getSortedBufferEntries should return asks in the correct order 1`] = `
+Array [
+  Array [
+    "48376.5",
+    20000,
+  ],
+  Array [
+    "48381.5",
+    24072,
+  ],
+  Array [
+    "48384",
+    1,
+  ],
+  Array [
+    "48388",
+    4725,
+  ],
+  Array [
+    "48388.5",
+    1,
+  ],
+  Array [
+    "48390",
+    1235,
+  ],
+  Array [
+    "48391",
+    15000,
+  ],
+  Array [
+    "48391.5",
+    6922,
+  ],
+  Array [
+    "48392",
+    57158,
+  ],
+  Array [
+    "48392.5",
+    86628,
+  ],
+  Array [
+    "48395.5",
+    1000,
+  ],
+  Array [
+    "48397.5",
+    4479,
+  ],
+  Array [
+    "48398",
+    450,
+  ],
+  Array [
+    "48398.5",
+    8338,
+  ],
+  Array [
+    "48400.5",
+    5000,
+  ],
+  Array [
+    "48401",
+    2607,
+  ],
+  Array [
+    "48407",
+    9681,
+  ],
+  Array [
+    "48408.5",
+    2500,
+  ],
+  Array [
+    "48412",
+    2092,
+  ],
+  Array [
+    "48414",
+    25000,
+  ],
+  Array [
+    "48416",
+    53820,
+  ],
+  Array [
+    "48418.5",
+    4578,
+  ],
+  Array [
+    "48419",
+    7500,
+  ],
+  Array [
+    "48421.5",
+    12222,
+  ],
+  Array [
+    "48423.5",
+    7522,
+  ],
+]
+`;
+
+exports[`getSortedBufferEntries should return bids in the correct order 1`] = `
+Array [
+  Array [
+    "48361.5",
+    1000,
+  ],
+  Array [
+    "48358.5",
+    2500,
+  ],
+  Array [
+    "48358",
+    4827,
+  ],
+  Array [
+    "48354.5",
+    6848,
+  ],
+  Array [
+    "48350",
+    9800,
+  ],
+  Array [
+    "48348",
+    1675,
+  ],
+  Array [
+    "48346",
+    4651,
+  ],
+  Array [
+    "48345.5",
+    5000,
+  ],
+  Array [
+    "48343",
+    25000,
+  ],
+  Array [
+    "48341",
+    206,
+  ],
+  Array [
+    "48340",
+    22902,
+  ],
+  Array [
+    "48338.5",
+    63160,
+  ],
+  Array [
+    "48338",
+    20000,
+  ],
+  Array [
+    "48337.5",
+    5748,
+  ],
+  Array [
+    "48337",
+    9267,
+  ],
+  Array [
+    "48336.5",
+    2500,
+  ],
+  Array [
+    "48334",
+    79726,
+  ],
+  Array [
+    "48333",
+    20000,
+  ],
+  Array [
+    "48330",
+    7758,
+  ],
+  Array [
+    "48328",
+    5000,
+  ],
+  Array [
+    "48327",
+    4729,
+  ],
+  Array [
+    "48326.5",
+    2500,
+  ],
+  Array [
+    "48322",
+    9660,
+  ],
+  Array [
+    "48321.5",
+    3053,
+  ],
+  Array [
+    "48320.5",
+    240000,
+  ],
+]
+`;

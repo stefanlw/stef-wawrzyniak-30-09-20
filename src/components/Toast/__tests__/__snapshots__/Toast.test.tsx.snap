@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast should match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "bottom": 50,
+        "height": 50,
+        "paddingHorizontal": 16,
+        "position": "absolute",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 6,
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": 8,
+        },
+        Object {
+          "width": 718,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 3,
+        }
+      }
+    >
+      <Text
+        style={Object {}}
+      >
+        A toast message
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={Object {}}
+      >
+        CTA test
+      </Text>
+    </View>
+  </View>
+</View>
+`;
