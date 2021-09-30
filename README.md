@@ -13,7 +13,7 @@
 ```bash
 yarn && cd ios && pod install
 ```
-2. Update the `.env` file with the websocket mentioned in the task requirements
+2. Update the `.env` file with the websocket mentioned in the task requirements (to be injected at build time to make building for other environments easier and to make it harder to find in GH search)
 ```bash
 WEBSOCKET_ADDRESS='wss://...'
 ```
