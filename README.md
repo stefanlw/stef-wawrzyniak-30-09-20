@@ -1,9 +1,9 @@
 # stefan-wawrzyniak-18-09-21
 
-![CI](https://github.com/stefanlw/stefan-wawrzyniak-18-09-21/actions/workflows/main.yml/badge.svg)
+![CI](https://github.com/stefanlw/stef-wawrzyniak-30-09-20/actions/workflows/main.yml/badge.svg)
 
 <p align="center">
-  <img width="250" src="https://github.com/stefanlw/stefan-wawrzyniak-18-09-21/blob/4b505daf232d1a692d743a4c80a81ed3224dc019/Screen_Recording.gif" />
+  <img width="250" src="https://github.com/stefanlw/stef-wawrzyniak-30-09-20/blob/17b64b5a1cb46e153134e33839fd29b573376496/Screen_Recording.gif" />
 </p>
 
 ## Project structure
