@@ -1,14 +1,30 @@
 # stefan-wawrzyniak-18-09-21
 
-![CI](https://github.com/stefanlw/stef-wawrzyniak-30-09-20/actions/workflows/main.yml/badge.svg)
+![Tests](https://github.com/stefanlw/stef-wawrzyniak-30-09-20/actions/workflows/main.yml/badge.svg)
 
 <p align="center">
   <img width="250" src="https://github.com/stefanlw/stef-wawrzyniak-30-09-20/blob/17b64b5a1cb46e153134e33839fd29b573376496/Screen_Recording.gif" />
 </p>
 
+## Setup instructions
+
+
+1. Install dependencies
+```bash
+yarn && cd ios && pod install
+```
+2. Update the `.env` file with the websocket mentioned in the task requirements
+```bash
+WEBSOCKET_ADDRESS='wss://...'
+```
+4. Run the app (I built for iOS)
+```bash
+yarn run ios
+```
+
 ## Project structure
 
-I tend to organise files by domain/what they do rather than what they are. At the apps current size it may seem like a fair amount of overhead with folders containing one file but as the app grows (in my experince) it will scale better.
+I tend to organise files by domain/what they do rather than what they are, as demonstrated below. At the apps current size it may seem like a fair amount of overhead with some folders only containing one file but as the app grows it should scale more gracefully than organsing by file type (in my experience).
 
 ```
 stefan-wawrzyniak-18-09-21/src/
@@ -46,7 +62,7 @@ I decided that using a state management library was unnecessary as keeping state
 
 ### Testing
 
-I've added unit tests to a few areas, if I had more time the coverage would be much better. In hindsight I should have tested the orderbook functionality first as they would have delivered the most value but I ran out of time to get round to them. I also setup [Loki](https://loki.js.org/) for visual regression tests on storybook to create a short feedback loop if other developers were to contribute to the project and make changes the UI/component library (although i struggled to get this running on my machine in the time available).
+I've added unit tests to a few areas, if I had more time the coverage would be much better. In hindsight I should have tested the orderbook functionality first as they would have delivered the most value but I ran out of time to get round to them. I also started setting up [Loki](https://loki.js.org/) for visual regression tests on storybook to create a short feedback loop if other developers were to contribute to the project and make changes the UI/component library (although i struggled to get this running on my machine in the time available).
 
 ### Performance
 
