@@ -74,8 +74,10 @@ As the test requirements stated that other developers would work on the app in t
 
 ### Changes i'd have made if i had more time
 
-- Improved test coverage + test quality
+- Improved test coverage + test quality particularly around the orderbook state
+- Improved types
 - Investigated Loki config issue which meant I couldn't add visual regression tests (i think its my machine)
 - Improved error handling
 - Support for themes
 - UI Design (Added an indicator of which contract is being displayed)
+- Many other things...
